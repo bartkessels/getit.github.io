@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Send HTTP requests using this open source application">
+	<meta name="author" content="Bart Kessels">
+	
+	<title>GetIt | Simple HTTP request application</title>
+	
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/animate.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/responsive.css"/>
+	<link rel="stylesheet" href="css/open-sans.css"/>
+</head>
+<body>
+	<!-- ====================================================
+	header section -->
+	<header class="top-header">
+		<div class="container">
+			<div class="row">
+				<!-- nav starts here -->
+				<div class="col-md-12">					
+					<nav class="navbar navbar-default">
+						<div class="container-fluid nav-bar">
+						    <div class="navbar-header">
+						      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						      </button>
+						      <a href="index.html" class="logo"><h1>GetIt</h1></a>
+						    </div>
+						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						      <ul class="nav navbar-nav navbar-right">
+						        <li><a class="navitem" href="#download">Download</a></li>
+						        <li><a class="navitem" href="#features">Features</a></li>
+						      </ul>
+						    </div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header><!-- end of header section -->
+
+	<!-- banner section starts here -->
+	<section class="banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<h3>Get to know GetIt</h3>
+					<h1>Developing APIs doesn&apos;t have to be so hard.</h1>
+					<p>GetIt&apos;s main focus is to make your life a lot easier when you have to
+						test APIs or use somebody elses API. We know it can be hard to find a great,
+						simple and open source application for this task that&apos;s not command line
+						based. That&apos;s why we&apos;ve decided to release GetIt!</p>
+					<a class="clone-btn" href="https://github.com/bartkessels/getit" target="_blank"><span class="fa fa-github"></span>&nbsp;Clone on Github</a>
+				</div>
+				<div class="col-xs-6 banner-img">
+					<video class="img-responsive" autoplay loop>
+						<source src="video/loop-animation.mp4">
+					</video>
+				</div>
+			</div>
+		</div>
+	</section><!-- end of banner section -->
+	
+	<!-- download section -->
+	<section class="download" id="download">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<p><span>Want to use GetIt? </span>Download now!</p>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<!-- Linux -->
+					<a class="download-btn" href="binaries/getit.rpm" download><span class="fa fa-linux"></span>&nbsp;Linux (.rpm)</a>
+				</div>
+			</div>
+		</div>
+	</section><!-- end of download section -->
+
+	<!-- feature section -->
+	<section class="features text-center" id="features">
+		<div class="container">
+			<div class="row">
+				<h4>overview</h4>
+				<h2>What can I do with GetIt?</h2>
+				<div class="col-md-4">
+					<i class="fa fa-save"></i>
+					<h3>Save &amp; Open Requests</h3>
+					<p>Save your requests to share them with your team, or to resend it at a later time.</p>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-edit"></i>
+					<h3>Send Custom POST Data</h3>
+					<p>Send the kind of data your API expects. Wheter it&apos; XML, JSON or just plain text. GetIt will get the job done.</p>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-code"></i>
+					<h3>Syntax Highlighting</h3>
+					<p>Wheter you&apos;re sending custom data or trying to figure out the response. GetIt will highlight both of those.</p>
+				</div>
+			</div>
+		</div>
+	</section><!-- end of features section -->
+
+	<hr>
+
+	<!-- save and open section -->
+	<section class="details" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-xs-6 col-sm-6">
+					<img class="img-responsive details-image" src="img/save-file.png" alt="GetIt - Save the request">
+				</div>
+				<div class="col-md-6 col-md-offset-1 col-xs-6 col-sm-6">
+					<h4>save &amp; open requests</h4>
+					<h2>Don&apos;t type the same over and over</h2>
+					<p>
+						When you&apos;re working with your team or alone, it&apos;s always good to be able to save your request. That way you don&apos;t have
+						to type the same things over and over again when continueing the next day.
+						<br>
+						Requests will be saved in a normal JSON file so you can easilly manipulate the request with a text editor if you need to.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section><!-- end of save and open section -->
+
+	<!-- custom post data section -->
+	<section class="feature-detail">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-5">
+					<h4>custom POST data</h4>
+					<h2>Send the request you want</h2>
+					<p>
+						GetIt allows you to send any type of POST data. If the API your requesting only needs JSON, then you can
+						send JSON, does the API only accept XML then send it XML. When sending custom POST data GetIt can highlight
+						the syntax for you to make your life a little easier!
+						<br>
+						In GetIt we call this &lsquo;raw&lsquo; data, as oppose to the key value pairs you would normally send
+						with GetIt.
+					</p>
+				</div>
+				<div class="col-xs-7 horizontal-image">
+					<img class="img-responsive" src="img/body-raw.png" alt="GetIt - Raw POST data">
+				</div>
+			</div>
+		</div>
+	</section><!-- end of custom post data section -->
+
+	<!-- syntax highlighting section -->
+	<section class="details" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-xs-6 col-sm-6">
+					<img class="img-responsive details-image" src="img/response.png" alt="GetIt - Syntax highlighting on response">
+				</div>
+				<div class="col-md-6 col-md-offset-1 col-xs-6 col-sm-6">
+					<h4>syntax highlighting</h4>
+					<h2>View the response as it should be viewed</h2>
+					<p>
+						When you have sent a request GetIt will try to automatically highlight the syntax of the response. This will make it easier for you
+						to read the response whatever type of response it may be.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section><!-- end of syntax highlighting section -->
+		
+	<!-- footer starts here -->
+	<footer class="footer text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="icons">
+						<a href="https://github.com/bartkessels/getit" target="_blank" title="Clone on Github"><i class="fa fa-github"></i></a>
+					</div>
+					<p>Copyright &copy; <a href="https://bartkessels.net" target="_blank">Bart Kessels</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- script tags
+	============================================================= -->
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>
